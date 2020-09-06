@@ -1,1 +1,3 @@
-$(function () {});
+$(function () {
+  $(".slider__inner").slick();
+});

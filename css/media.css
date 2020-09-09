@@ -46,6 +46,16 @@
   .form__box-inner .jq-selectbox__select {
     margin-bottom: 10px;
   }
+  .form {
+    padding-bottom: 25px;
+  }
+  .advantages__inner {
+    display: block;
+  }
+  .advantages-item {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 700px) {
   .header__btn {
@@ -100,6 +110,9 @@
 @media (max-width: 400px) {
   .header__btn::before {
     display: block;
+  }
+  .advantages-item {
+    padding: 0;
   }
 }
 @media (max-width: 375px) {
